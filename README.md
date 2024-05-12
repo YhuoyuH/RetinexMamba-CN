@@ -165,7 +165,8 @@ python3 basicsr/train.py --opt Options/RetinexMamba_LOL_v2_synthetic.yml
   title={Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement},
   author={Yuanhao Cai and Hao Bian and Jing Lin and Haoqian Wang and Radu Timofte and Yulun Zhang},
   booktitle={ICCV},
-  year={2023}
+  year={2023},
+  reposittory:https://github.com/caiyuanhao1998/Retinexformer        
 }
 
 @inproceedings{VM-Unet,
