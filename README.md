@@ -176,4 +176,4 @@ python3 basicsr/train.py --opt Options/RetinexMamba_LOL_v2_synthetic.yml
 }
 ```
 
-该仓库基于[Retinexformer](https://github.com/caiyuanhao1998/Retinexformer)(ICCV 2023).
+该仓库基于[Retinexformer](https://github.com/caiyuanhao1998/Retinexformer) (ICCV 2023).
