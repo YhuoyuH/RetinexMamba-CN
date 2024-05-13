@@ -136,7 +136,21 @@ ave_psnr, ave_ssim, ave_rmse = evaluate_raindrop('Your result dir', 'data GT')
 
 ### 5. 模型参数以及浮点数评估
 
-如果您想查看模型的参数数量和浮点数，请直接运行位于 `basicsr/models/archs` 中的 `ReinexMamba_arch`。
+如果你想看模型的参数量，请将`ReinexMamba_arch`中的第11和第12行代码： 
+
+```
+from .SS2D_arch import SS2D 
+from .IFA_arch import IFA
+```
+
+ 改成
+
+```
+from .SS2D_arch import SS2D 
+from IFA_arch import IFA 
+```
+
+随后直接运行`ReinexMamba_arch`即可
 
 ### 6. 训练
 
